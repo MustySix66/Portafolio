@@ -1,23 +1,23 @@
 [
     {
-        "titulo": "AZ-900: Microsoft Azure Fundamentals",
-        "otorgado_por": "Microsoft",
-        "fecha": "2025-10-15",
-        "imagen_url": "https://via.placeholder.com/400x250.png?text=AZ-900",
-        "credencial_url": "https://www.credly.com/badges/..."
+        "titulo": "Junior Cybersecurity Analyst Career Path",
+        "otorgado_por": "Cisco",
+        "fecha": "10/Abril/2025",
+        "imagen_url": "https://images.credly.com/size/340x340/images/441578ec-c0f3-46cc-95fc-86b27e90cf4f/image.png",
+        "credencial_url": "https://www.credly.com/badges/ac395142-1b8f-48ee-83f6-b4bbfd0b4956"
     },
     {
-        "titulo": "Docker Certified Associate (DCA)",
-        "otorgado_por": "Docker",
-        "fecha": "2025-08-01",
-        "imagen_url": "https://via.placeholder.com/400x250.png?text=DCA",
-        "credencial_url": "https://www.credly.com/badges/..."
+        "titulo": "Google Cloud Computing Foundations Certificate",
+        "otorgado_por": "Google Cloud",
+        "fecha": "15/Junio/2024",
+        "imagen_url": "https://images.credly.com/images/4dda8ae4-99ee-476c-bca3-6f0adbab42fe/image.png",
+        "credencial_url": "https://www.credly.com/badges/ec398562-126e-415b-98ba-25d732fb3387"
     },
     {
-        "titulo": "Data Warehouse Concepts",
-        "otorgado_por": "Coursera",
-        "fecha": "2025-05-20",
-        "imagen_url": "https://via.placeholder.com/400x250.png?text=Data+Warehouse",
-        "credencial_url": "https://www.coursera.org/verify/..."
+        "titulo": "Prepare Data for ML APIs on Google Cloud Skill Badge",
+        "otorgado_por": "Google Cloud",
+        "fecha": "15/Junio/2024",
+        "imagen_url": "https://images.credly.com/size/340x340/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png",
+        "credencial_url": "https://www.credly.com/badges/53a7ce16-4ff0-4cee-83b8-808d9fab1d76"
     }
 ]
