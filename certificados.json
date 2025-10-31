@@ -1,0 +1,23 @@
+[
+    {
+        "titulo": "AZ-900: Microsoft Azure Fundamentals",
+        "otorgado_por": "Microsoft",
+        "fecha": "2025-10-15",
+        "imagen_url": "https://via.placeholder.com/400x250.png?text=AZ-900",
+        "credencial_url": "https://www.credly.com/badges/..."
+    },
+    {
+        "titulo": "Docker Certified Associate (DCA)",
+        "otorgado_por": "Docker",
+        "fecha": "2025-08-01",
+        "imagen_url": "https://via.placeholder.com/400x250.png?text=DCA",
+        "credencial_url": "https://www.credly.com/badges/..."
+    },
+    {
+        "titulo": "Data Warehouse Concepts",
+        "otorgado_por": "Coursera",
+        "fecha": "2025-05-20",
+        "imagen_url": "https://via.placeholder.com/400x250.png?text=Data+Warehouse",
+        "credencial_url": "https://www.coursera.org/verify/..."
+    }
+]
