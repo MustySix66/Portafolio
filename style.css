@@ -29,7 +29,7 @@ main {
 .gallery-container {
     display: grid;
     /* Crea columnas de mínimo 300px y máximo 1fr (fracción) */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 25px;
 }
 
@@ -52,7 +52,7 @@ main {
 
 .certificate-card img {
     width: 100%;
-    object-fit: contain; /* CAMBIADO: La imagen se ajusta sin recortarse */
+    object-fit: contain; /* La imagen se ajusta sin recortarse */
     border-bottom: 1px solid #eee;
     padding: 15px; /* Añadido: Un poco de padding para que la imagen no toque los bordes */
     box-sizing: border-box; /* Asegura que el padding no añada anchura extra */

@@ -13,11 +13,39 @@
         "imagen_url": "https://images.credly.com/images/4dda8ae4-99ee-476c-bca3-6f0adbab42fe/image.png",
         "credencial_url": "https://www.credly.com/badges/ec398562-126e-415b-98ba-25d732fb3387"
     },
-    {
+        {
         "titulo": "Prepare Data for ML APIs on Google Cloud Skill Badge",
         "otorgado_por": "Google Cloud",
         "fecha": "15/Junio/2024",
         "imagen_url": "https://images.credly.com/size/340x340/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png",
-        "credencial_url": "https://www.credly.com/badges/53a7ce16-4ff0-4cee-83b8-808d9fab1d76"
+        "credencial_url": "https://images.credly.com/size/340x340/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png"
+    },
+    {
+        "titulo": "Build a Secure Google Cloud Network Skill Badge",
+        "otorgado_por": "Google Cloud",
+        "fecha": "13/Junio/2024",
+        "imagen_url": "https://images.credly.com/size/340x340/images/e1131ae3-4a52-4af1-9801-b7853767cf79/image.png",
+        "credencial_url": "https://www.credly.com/badges/daa95538-5bf9-451d-88b1-31994a686e6c"
+    },
+    {
+        "titulo": "Set Up an App Dev Environment on Google Cloud Skill Badge",
+        "otorgado_por": "Google Cloud",
+        "fecha": "13/Junio/2024",
+        "imagen_url": "https://images.credly.com/size/340x340/images/42326d44-14ff-4eda-b9c5-7d8f12919253/image.png",
+        "credencial_url": "https://www.credly.com/badges/e2a2cd2d-2a28-4ddd-9885-5a293895c627"
+    },
+    {
+        "titulo": "Implement Load Balancing on Compute Engine Skill Badge",
+        "otorgado_por": "Google Cloud",
+        "fecha": "11/Junio/2024",
+        "imagen_url": "https://images.credly.com/size/340x340/images/eea11cba-2a98-4bbe-bad2-447878dd34a2/image.png",
+        "credencial_url": "https://www.credly.com/badges/20285dbe-6df2-4b09-9c99-900483141537"
+    },
+    {
+        "titulo": "Networking Devices and Initial Configuration",
+        "otorgado_por": "Cisco",
+        "fecha": "11/Enero/2024",
+        "imagen_url": "https://images.credly.com/size/340x340/images/88316fe8-5651-4e61-a6be-5be1558f049e/image.png",
+        "credencial_url": "https://images.credly.com/size/340x340/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png"
     }
 ]
