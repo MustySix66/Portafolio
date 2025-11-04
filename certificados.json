@@ -1,5 +1,12 @@
 [
     {
+        "titulo": "Introduction to AWS IAM",
+        "otorgado_por": "AWS",
+        "fecha": "17/Octubre/2025",
+        "imagen_url": "certificados/INTRODUCTION TO AWS IAM.png",
+        "credencial_url": "certificados/Introduction to AWS IAM.pdf"
+    },
+    {
         "titulo": "AWS Shared Responsibility Model",
         "otorgado_por": "AWS",
         "fecha": "17/Octubre/2025",
@@ -14,11 +21,25 @@
         "credencial_url": "https://www.credly.com/badges/ac395142-1b8f-48ee-83f6-b4bbfd0b4956"
     },
     {
+        "titulo": "IA en el trabajo",
+        "otorgado_por": "Red Por La Ciberseguridad",
+        "fecha": "03/Octubre/2024",
+        "imagen_url": "certificados/IAENELTRABAJO.png",
+        "credencial_url": "https://redporlaciberseguridad.org/validacion-de-constancia-ia-en-el-trabajo/"
+    },
+    {
         "titulo": "Google Cloud Profesor Facilitador",
         "otorgado_por": "Google Cloud",
         "fecha": "15/Julio/2024",
         "imagen_url": "certificados/GOOGLE CLOUD PROFESSOR FACILITATOR.png",
         "credencial_url": "certificados/Google Cloud Facilitador.pdf"
+    },
+    {
+        "titulo": "Google IA y Productividad",
+        "otorgado_por": "Santander Open Academy",
+        "fecha": "11/Julio/2024",
+        "imagen_url": "certificados/GOOGLE IA Y PRODUCTIVIDAD.png",
+        "credencial_url": "certificados/Google IA y Productividad.pdf"
     },
     {
         "titulo": "Google Cloud Computing Foundations Certificate",
@@ -56,11 +77,25 @@
         "credencial_url": "https://www.credly.com/badges/20285dbe-6df2-4b09-9c99-900483141537"
     },
     {
+        "titulo": "Networking Devices and Initial Configuration Certificate",
+        "otorgado_por": "Cisco",
+        "fecha": "11/Enero/2024",
+        "imagen_url": "certificados/NETWORKING DEVICES AND INITIAL CONFIGURATIONS.png",
+        "credencial_url": "certificados/Networking Devices and Initial Configuration Badge.pdf"
+    },
+    {
         "titulo": "Networking Devices and Initial Configuration",
         "otorgado_por": "Cisco",
         "fecha": "11/Enero/2024",
         "imagen_url": "https://images.credly.com/size/340x340/images/88316fe8-5651-4e61-a6be-5be1558f049e/image.png",
         "credencial_url": "https://www.credly.com/badges/434d7a65-177a-4239-9bf9-91151f1c0d56"
+    },
+    {
+        "titulo": "Network Addressing and Basic Troubleshooting Certificate",
+        "otorgado_por": "Cisco",
+        "fecha": "10/Enero/2024",
+        "imagen_url": "certificados/NETWORK ADDRESSING AND BASIC TROUBLESHOOTING.png",
+        "credencial_url": "certificados/Network Addressing and Basic Troubleshooting Badge.pdf"
     },
     {
         "titulo": "Network Addressing and Basic Troubleshooting",
@@ -70,11 +105,25 @@
         "credencial_url": "https://www.credly.com/badges/45a050e7-0b5b-416a-a69f-2d294f330362"
     },
     {
+        "titulo": "Networking Basics Certificate",
+        "otorgado_por": "Cisco",
+        "fecha": "12/Diciembre/2023",
+        "imagen_url": "certificados/NETWORKING BASICS BADGE.png",
+        "credencial_url": "certificados/Networking Basics Badge.pdf"
+    },
+    {
         "titulo": "Networking Basics",
         "otorgado_por": "Cisco",
         "fecha": "12/Diciembre/2023",
         "imagen_url": "https://images.credly.com/size/680x680/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png",
         "credencial_url": "https://www.credly.com/badges/eca5c43b-552d-41bc-a495-e36496291198"
+    },
+    {
+        "titulo": "Python Essentials 1 Certificate",
+        "otorgado_por": "Cisco",
+        "fecha": "02/Diciembre/2023",
+        "imagen_url": "certificados/PYTHON ESSENTIALS 1 CERTIFICATE.png",
+        "credencial_url": "certificados/Python Essentials 1 Badge.pdf"
     },
     {
         "titulo": "Python Essentials 1",
@@ -96,6 +145,13 @@
         "fecha": "29/Noviembre/2023",
         "imagen_url": "https://images.credly.com/size/680x680/images/04e8034c-81f5-4f7f-ab23-e8b428c31ce9/ITE.png",
         "credencial_url": "https://www.credly.com/badges/467e8687-f650-4773-9b46-8629cdb17778"
+    },
+    {
+        "titulo": "Introduction to Cybersecurity Certificate",
+        "otorgado_por": "Cisco",
+        "fecha": "24/Octubre/2023",
+        "imagen_url": "certificados/INTRODUCTION TO CYBERSECURITY BADGE.png",
+        "credencial_url": "certificados/Introduction to Cybersecurity Badge.pdf"
     },
     {
         "titulo": "Introduction to Cybersecurity",
