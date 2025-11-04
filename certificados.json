@@ -1,5 +1,19 @@
 [
     {
+        "titulo": "Docker Essentials: A Developer Introduction",
+        "otorgado_por": "IBM",
+        "fecha": "04/Noviembre/2025",
+        "imagen_url": "certificados/Docker IBM.png",
+        "credencial_url": "certificados/Docker IBM.pdf"
+    },
+        {
+        "titulo": "Docker Essentials: A Developer Introduction",
+        "otorgado_por": "IBM",
+        "fecha": "04/Noviembre/2025",
+        "imagen_url": "https://images.credly.com/size/340x340/images/b0c5445a-72a2-46ce-a599-96147e210efb/blob",
+        "credencial_url": "https://www.credly.com/badges/c4111757-bd73-4076-ad67-349195446f97"
+    },
+    {
         "titulo": "Introduction to AWS IAM",
         "otorgado_por": "AWS",
         "fecha": "17/Octubre/2025",
