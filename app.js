@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="card-content">
                         <h3>${cert.titulo}</h3>
                         <p>Otorgado por: <br><strong>${cert.otorgado_por}</strong></p>
-                        <p>Fecha: ${cert.fecha}</p>
+                        <p>Fecha: <br>${cert.fecha}</p>
                         <a href="${cert.credencial_url}" target="_blank" rel="noopener noreferrer">Ver Credencial</a>
                     </div>
                 `;
