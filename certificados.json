@@ -1,12 +1,19 @@
 [
     {
+        "titulo": "Infotec Python Intermedio",
+        "otorgado_por": "Infotec",
+        "fecha": "17/Diciembre/2025",
+        "imagen_url": "certificados/Infotec Python Intermedio.png",
+        "credencial_url": "https://www.epc.gob.mx/acreditacion/EDC-2c9eKM"
+    },
+    {
         "titulo": "Docker Essentials: A Developer Introduction",
         "otorgado_por": "IBM",
         "fecha": "04/Noviembre/2025",
         "imagen_url": "certificados/Docker IBM.png",
         "credencial_url": "certificados/Docker IBM.pdf"
     },
-        {
+    {
         "titulo": "Docker Essentials: A Developer Introduction",
         "otorgado_por": "IBM",
         "fecha": "04/Noviembre/2025",
