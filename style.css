@@ -26,7 +26,7 @@ body {
 .profile-header {
     background-color: var(--header-bg);
     color: var(--header-text);
-    padding: 60px 20px;
+    padding: 20px 20px;
     border-bottom: 1px solid var(--border-color);
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@ body {
 }
 
 .profile-title {
-    margin: 0 0 20px 0;
+    margin: 0;
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--accent-color);
@@ -55,10 +55,11 @@ body {
 }
 
 .profile-about {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: var(--text-secondary);
-    line-height: 1.8;
-    margin: 0;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 650px;
 }
 
 main {
@@ -224,10 +225,10 @@ main {
 }
 
 .exp-logo img {
-    width: 70px;
+    width: 120px;
     height: 70px;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit: contain;
+    border-radius: 35px;
     border: 2px solid var(--border-color);
     background-color: #fff;
     /* Placeholder often needs white bg */
