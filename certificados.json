@@ -1,5 +1,12 @@
 [
     {
+        "titulo": "UiPath Academy Automation Developer Associate Training",
+        "otorgado_por": "UiPath",
+        "fecha": "29/Diciembre/2025",
+        "imagen_url": "certificados/UiPath Academy Automation Developer Associate Training.png",
+        "credencial_url": "https://www.credential.net/20ed5e67-ca85-4c52-a6dc-b77c58eca3d0"
+    },
+    {
         "titulo": "Infotec Python Intermedio",
         "otorgado_por": "Infotec",
         "fecha": "17/Diciembre/2025",
