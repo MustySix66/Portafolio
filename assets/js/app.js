@@ -252,8 +252,8 @@ function setLanguage(lang) {
 
 function fetchData() {
     Promise.all([
-        fetch('certificados.json').then(res => res.json()),
-        fetch('experiencia.json').then(res => res.json())
+        fetch('data/certificados.json').then(res => res.json()),
+        fetch('data/experiencia.json').then(res => res.json())
     ])
     .then(([certs, exp]) => {
         certificatesData = certs;

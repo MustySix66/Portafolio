@@ -5,10 +5,16 @@
         "titulo_en": "MRO Technician",
         "fecha_es": "Agosto 2026 - Presente",
         "fecha_en": "Aug 2026 - Present",
-        "logo_url": "certificados/aumovio_logo_highres.png",
+        "logo_url": "assets/certificados/aumovio_logo_highres.png",
         "descripcion_es": "Mantenimiento, Reparación y Operaciones (MRO) de infraestructura técnica y sistemas de automatización. Gestión de la continuidad operativa de equipos críticos, diagnóstico avanzado de fallas y soporte de alta prioridad en entornos industriales.",
         "descripcion_en": "Maintenance, Repair, and Operations (MRO) of technical infrastructure and automation systems. Operational continuity management of critical equipment, advanced failure diagnostics, and high-priority support in industrial environments.",
-        "tecnologias": ["MRO Operations", "Industrial Systems", "Hardware Diagnostics", "Operational Continuity", "Incident Resolution"]
+        "tecnologias": [
+            "MRO Operations",
+            "Industrial Systems",
+            "Hardware Diagnostics",
+            "Operational Continuity",
+            "Incident Resolution"
+        ]
     },
     {
         "empresa": "AUMOVIO",
@@ -16,10 +22,17 @@
         "titulo_en": "Programming Intern - Warehouse & Logistics",
         "fecha_es": "Nov 2025 - Agosto 2026",
         "fecha_en": "Nov 2025 - Aug 2026",
-        "logo_url": "certificados/aumovio_logo_highres.png",
+        "logo_url": "assets/certificados/aumovio_logo_highres.png",
         "descripcion_es": "Automatización, estandarización y optimización de procesos logísticos mediante flujos RPA en UiPath y VBA. Integración de UiPath con SAP SCM para ejecución de transacciones repetitivas. Implementación de Storage Buckets para consolidación de datos y generación automatizada de reportes KPI.",
         "descripcion_en": "Automation, standardization, and optimization of logistics processes through RPA workflows in UiPath and VBA. UiPath integration with SAP SCM for execution of repetitive transactions. Implementation of Storage Buckets for data consolidation and automated KPI report generation.",
-        "tecnologias": ["UiPath (RPA)", "SAP SCM", "Python", "VBA", "Storage Buckets", "KPI Reports"]
+        "tecnologias": [
+            "UiPath (RPA)",
+            "SAP SCM",
+            "Python",
+            "VBA",
+            "Storage Buckets",
+            "KPI Reports"
+        ]
     },
     {
         "empresa": "Sector Independiente",
@@ -30,6 +43,11 @@
         "logo_url": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
         "descripcion_es": "Gestión del ciclo de vida de incidencias mediante sistemas de tickets, asegurando tiempos de respuesta óptimos. Diagnóstico, soporte y reparación de equipos de cómputo (hardware y software) en entornos de alta demanda.",
         "descripcion_en": "Lifecycle incident management using ticketing systems, ensuring optimal response times. Diagnosis, support, and hardware/software repair in high-demand environments.",
-        "tecnologias": ["Ticketing Systems", "Hardware/Software Support", "Network Diagnostics", "Windows/Linux"]
+        "tecnologias": [
+            "Ticketing Systems",
+            "Hardware/Software Support",
+            "Network Diagnostics",
+            "Windows/Linux"
+        ]
     }
 ]
