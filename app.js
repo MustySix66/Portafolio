@@ -1,19 +1,20 @@
 // ==========================================================================
-// PORTAFOLIO WEB - KEVIN ANTONIO ANDRADE LÓPEZ
+// PORTAFOLIO PROFESIONAL - KEVIN ANTONIO ANDRADE LÓPEZ
+// Red Team, Cloud Infrastructure & RPA Engineer
 // Core Application Logic (Tabs, i18n Bilingual Switch, Filters & Lightbox)
 // ==========================================================================
 
 const i18n = {
     es: {
         nav_about: "Sobre Mí",
-        nav_experience: "Experiencia & Ed.",
+        nav_experience: "Experiencia & Educación",
         nav_skills: "Habilidades & Stack",
         nav_certificates: "Certificados & CTFs",
         
-        status_text: "🟢 Activo: HTB CPTS en progreso | Programming Intern @ AUMOVIO",
+        status_text: "Activo: HTB Certified Penetration Testing Specialist (CPTS) en progreso | MRO Technician @ AUMOVIO",
         hero_title: "Ingeniero en Redes Inteligentes & Ciberseguridad",
-        hero_subtitle: "Cloud Infrastructure · RPA Automation · Blue/Red Team Security",
-        hero_bio: "Ingeniero bilingüe enfocado en infraestructura en la nube (AWS/GCP), ciberseguridad defensiva y automatización logística (RPA). Apasionado por la arquitectura IaC, la resiliencia de redes y el aprendizaje continuo.",
+        hero_subtitle: "Red Team & Offensive Security Specialist · Cloud Infrastructure (AWS/GCP) · RPA Automation",
+        hero_bio: "Ingeniero bilingüe especializado en Red Team, Penetration Testing y Ciberseguridad Ofensiva, respaldado por una sólida formación en Infraestructura Elástica en la Nube (AWS/GCP), Arquitectura IaC y Automatización Logística (RPA/SAP SCM). Orientado a la detección de vulnerabilidades, evaluación de seguridad y resiliencia operativa de infraestructura crítica.",
         
         contact_email: "Correo Electrónico",
         contact_phone: "Teléfono",
@@ -21,67 +22,70 @@ const i18n = {
         contact_github: "GitHub",
 
         // Tab 1: About
-        sec_about: "Perfil Profesional & Educación",
+        sec_about: "Perfil Profesional & Competencias de Egreso",
         summary_title: "Resumen Ejecutivo",
-        summary_desc: "Especializado en la optimización de procesos mediante RPA en UiPath e integración con SAP SCM, despliegue de infraestructura como código (IaC), soporte técnico en entornos de alta demanda y ciberseguridad (Defensa Digital & Red Team).",
+        summary_desc: "Profesional bilingüe con enfoque principal en Red Team y Ciberseguridad Ofensiva (evaluación de vulnerabilidades, pruebas de penetración, análisis de malware e informática forense). Cuenta con amplia experiencia técnica en despliegue de infraestructura elástica en la nube (AWS/GCP) mediante IaC (Terraform, Docker), automatización y optimización de procesos mediante flujos RPA en UiPath integrados a SAP SCM, y diagnóstico avanzado de hardware/software.",
         
-        soft_title: "Habilidades Blandas (Soft Skills)",
+        soft_title: "Competencias Profesionales",
         skills_assertive: "Comunicación Asertiva",
         skills_critical: "Pensamiento Crítico",
-        skills_analysis: "Capacidad de Análisis",
-        skills_adaptability: "Adaptabilidad",
+        skills_analysis: "Capacidad de Análisis Estratégico",
+        skills_adaptability: "Adaptabilidad Tecnológica",
         skills_efficiency: "Orientación a la Eficiencia",
-        skills_teamwork: "Trabajo en Equipo",
+        skills_teamwork: "Trabajo Colaborativo",
         
-        lang_title: "Idiomas (Languages)",
+        lang_title: "Dominio de Idiomas",
         lang_es: "Español",
         lang_es_lvl: "Nativo",
         lang_en: "Inglés",
-        lang_en_lvl: "C1 Avanzado",
+        lang_en_lvl: "C1 Avanzado (Bilingüe Profesional)",
         lang_fr: "Francés",
         lang_fr_lvl: "B1 Intermedio",
 
-        edu_title: "Formación Académica",
-        edu_1_title: "Ingeniería en Redes Computacionales y Ciberseguridad & TSU TI Infraestructura",
+        edu_title: "Formación Académica & Competencias Clave",
+        edu_1_title: "Ingeniería en Redes Inteligentes y Ciberseguridad & TSU en Infraestructura de Redes Digitales",
         edu_1_school: "Universidad Tecnológica de Aguascalientes (2024 - 2027)",
-        edu_2_title: "TSU en Programación (Java y C++)",
+        edu_1_desc: "Plan de estudios enfocado en la protección activa y ofensiva de activos de información, informática forense, diseño e implementación de infraestructura elástica en la nube (AWS/GCP), redes definidas por software (SDN), gestión de riesgos tecnológicas y continuidad del negocio (BCP/DRP).",
+        
+        edu_2_title: "TSU en Programación",
         edu_2_school: "CETis 155 Josefa Ortiz de Domínguez (2014 - 2017)",
+        edu_2_desc: "Formación práctica en lógica de programación, estructuras de datos, programación orientada a objetos (Java, C++) y desarrollo de sistemas.",
 
         // Tab 2: Experience
         sec_exp: "Experiencia Profesional",
         
         // Tab 3: Skills
-        sec_skills: "Habilidades Técnicas & Tecnologías",
-        domain_cloud: "Cloud & Infraestructura (IaC)",
-        domain_rpa: "RPA & Automatización",
-        domain_net: "Networking & SysAdmin",
+        sec_skills: "Matriz de Competencias & Dominio Técnico",
+        domain_sec: "Ciberseguridad Ofensiva & Red Team",
+        domain_cloud: "Cloud Infrastructure & IaC",
+        domain_rpa: "Automatización RPA & Procesos",
+        domain_net: "Networking & SysAdmin Avanzado",
         domain_dev: "Desarrollo & Scripting",
-        domain_sec: "Ciberseguridad & Análisis",
 
         // Tab 4: Certificates
-        sec_certs: "Certificaciones & Retos CTF",
+        sec_certs: "Certificaciones Profesionales & Retos CTF",
         filter_all: "Todos",
-        filter_cloud: "Cloud & IaC",
         filter_cybersecurity: "Ciberseguridad & CTF",
+        filter_cloud: "Cloud & IaC",
         filter_automation: "RPA & Automatización",
-        filter_soft: "Soft Skills & Talleres",
+        filter_soft: "Desarrollo Profesional & Talleres",
 
-        view_credential: "Ver Credencial",
+        view_credential: "Ver Credencial Oficial",
         featured_tag: "Destacado",
 
         footer_rights: "Kevin Antonio Andrade López. Todos los derechos reservados.",
-        footer_quote: "/* Infrastructure as Code & Security by Design */"
+        footer_quote: "/* Red Team Operations & Offensive Security Architecture */"
     },
     en: {
         nav_about: "About Me",
-        nav_experience: "Experience & Ed.",
+        nav_experience: "Experience & Education",
         nav_skills: "Skills & Stack",
         nav_certificates: "Certificates & CTFs",
 
-        status_text: "🟢 Active: HTB CPTS in progress | Programming Intern @ AUMOVIO",
+        status_text: "Active: HTB Certified Penetration Testing Specialist (CPTS) Candidate | MRO Technician @ AUMOVIO",
         hero_title: "Intelligent Networks & Cybersecurity Engineer",
-        hero_subtitle: "Cloud Infrastructure · RPA Automation · Blue/Red Team Security",
-        hero_bio: "Bilingual engineer focused on Cloud Infrastructure (AWS/GCP), defensive cybersecurity, and logistics automation (RPA). Passionate about IaC architecture, network resilience, and continuous learning.",
+        hero_subtitle: "Red Team & Offensive Security Specialist · Cloud Infrastructure (AWS/GCP) · RPA Automation",
+        hero_bio: "Bilingual engineer specialized in Red Team operations, Penetration Testing, and Offensive Cybersecurity, backed by solid expertise in elastic Cloud Infrastructure (AWS/GCP), IaC Architecture, and Logistics Automation (RPA/SAP SCM). Focused on vulnerability identification, security auditing, and critical infrastructure operational resilience.",
 
         contact_email: "Email",
         contact_phone: "Phone",
@@ -89,56 +93,59 @@ const i18n = {
         contact_github: "GitHub",
 
         // Tab 1: About
-        sec_about: "Professional Profile & Education",
+        sec_about: "Professional Profile & Core Competencies",
         summary_title: "Executive Summary",
-        summary_desc: "Specialized in process optimization using RPA in UiPath integrated with SAP SCM, Infrastructure as Code (IaC) deployment, IT technical support in high-demand environments, and cybersecurity (Digital Defense & Red Team).",
+        summary_desc: "Bilingual professional primarily focused on Red Team and Offensive Cybersecurity (vulnerability assessment, penetration testing, malware analysis, and digital forensics). Experienced in elastic cloud infrastructure deployment (AWS/GCP) using IaC (Terraform, Docker), logistics process optimization via RPA workflows in UiPath integrated with SAP SCM, and advanced hardware/software troubleshooting.",
 
-        soft_title: "Soft Skills",
+        soft_title: "Professional Competencies",
         skills_assertive: "Assertive Communication",
         skills_critical: "Critical Thinking",
-        skills_analysis: "Analytical Ability",
-        skills_adaptability: "Adaptability",
+        skills_analysis: "Strategic Analytical Ability",
+        skills_adaptability: "Technological Adaptability",
         skills_efficiency: "Efficiency Orientation",
-        skills_teamwork: "Teamwork",
+        skills_teamwork: "Collaborative Teamwork",
 
-        lang_title: "Languages",
+        lang_title: "Language Proficiency",
         lang_es: "Spanish",
         lang_es_lvl: "Native",
         lang_en: "English",
-        lang_en_lvl: "C1 Advanced",
+        lang_en_lvl: "C1 Advanced (Professional Bilingual)",
         lang_fr: "French",
         lang_fr_lvl: "B1 Intermediate",
 
-        edu_title: "Education",
-        edu_1_title: "B.S. in Computer Networks & Cybersecurity / Associate Degree in Network Infrastructure",
+        edu_title: "Education & Key Competencies",
+        edu_1_title: "B.S. in Intelligent Networks & Cybersecurity / Associate Degree in Digital Network Infrastructure",
         edu_1_school: "Universidad Tecnológica de Aguascalientes (2024 - 2027)",
-        edu_2_title: "Associate Degree in Programming (Java & C++)",
+        edu_1_desc: "Comprehensive degree curriculum emphasizing active and offensive protection of information assets, digital forensics, design and implementation of elastic cloud infrastructure (AWS/GCP), software-defined networking (SDN), IT risk management, and business continuity (BCP/DRP).",
+
+        edu_2_title: "Associate Degree in Programming",
         edu_2_school: "CETis 155 Josefa Ortiz de Domínguez (2014 - 2017)",
+        edu_2_desc: "Practical training in programming logic, data structures, object-oriented programming (Java, C++), and system development.",
 
         // Tab 2: Experience
         sec_exp: "Work Experience",
 
         // Tab 3: Skills
-        sec_skills: "Technical Skills & Stack",
-        domain_cloud: "Cloud & Infrastructure (IaC)",
-        domain_rpa: "RPA & Automation",
-        domain_net: "Networking & SysAdmin",
+        sec_skills: "Technical Skills & Competency Matrix",
+        domain_sec: "Offensive Cybersecurity & Red Team",
+        domain_cloud: "Cloud Infrastructure & IaC",
+        domain_rpa: "RPA Automation & Processes",
+        domain_net: "Networking & Advanced SysAdmin",
         domain_dev: "Development & Scripting",
-        domain_sec: "Cybersecurity & Analysis",
 
         // Tab 4: Certificates
-        sec_certs: "Certifications & CTF Challenges",
+        sec_certs: "Professional Certifications & CTF Challenges",
         filter_all: "All",
-        filter_cloud: "Cloud & IaC",
         filter_cybersecurity: "Cybersecurity & CTF",
+        filter_cloud: "Cloud & IaC",
         filter_automation: "RPA & Automation",
-        filter_soft: "Soft Skills & Workshops",
+        filter_soft: "Professional Development & Workshops",
 
-        view_credential: "View Credential",
+        view_credential: "View Official Credential",
         featured_tag: "Featured",
 
         footer_rights: "Kevin Antonio Andrade López. All rights reserved.",
-        footer_quote: "/* Infrastructure as Code & Security by Design */"
+        footer_quote: "/* Red Team Operations & Offensive Security Architecture */"
     }
 };
 
@@ -272,7 +279,7 @@ function renderCertificates() {
     });
 
     if (filtered.length === 0) {
-        gallery.innerHTML = `<p style="color: var(--text-muted); grid-column: 1/-1; text-align: center; padding: 2rem;">No hay certificados en esta categoría.</p>`;
+        gallery.innerHTML = `<p style="color: var(--text-muted); grid-column: 1/-1; text-align: center; padding: 2.5rem;">No hay registros disponibles en esta categoría.</p>`;
         return;
     }
 
@@ -293,16 +300,18 @@ function renderCertificates() {
             ${featuredBadgeHTML}
             <div class="cert-img-container" onclick="openLightbox('${cert.imagen_url}', '${titleText}')">
                 <img src="${cert.imagen_url}" alt="${titleText}" loading="lazy">
-                <div class="cert-overlay">🔍</div>
+                <div class="cert-overlay">
+                    <span class="view-zoom-text">Ver vista previa</span>
+                </div>
             </div>
             <div class="cert-body">
                 <h3 class="cert-title">${titleText}</h3>
                 <p class="cert-issuer">${cert.otorgado_por}</p>
-                <p class="cert-date">🗓️ ${cert.fecha}</p>
+                <p class="cert-date">${cert.fecha}</p>
                 ${descText ? `<p class="cert-desc">${descText}</p>` : ''}
                 <div class="cert-footer">
                     <a href="${cert.credencial_url}" target="_blank" rel="noopener noreferrer" class="btn-credential">
-                        ${btnText} ↗
+                        ${btnText} &rarr;
                     </a>
                 </div>
             </div>
@@ -338,7 +347,7 @@ function renderExperience() {
                     <div>
                         <h3 class="exp-role">${title}</h3>
                         <p class="exp-company">${exp.empresa}</p>
-                        <p class="exp-date">🗓️ ${date}</p>
+                        <p class="exp-date">${date}</p>
                     </div>
                 </div>
                 <p class="exp-desc">${desc}</p>

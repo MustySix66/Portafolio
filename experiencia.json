@@ -1,13 +1,24 @@
 [
     {
         "empresa": "AUMOVIO",
+        "titulo_es": "MRO Technician",
+        "titulo_en": "MRO Technician",
+        "fecha_es": "Agosto 2026 - Presente",
+        "fecha_en": "Aug 2026 - Present",
+        "logo_url": "certificados/aumovio_logo_highres.png",
+        "descripcion_es": "Mantenimiento, Reparación y Operaciones (MRO) de infraestructura técnica y sistemas de automatización. Gestión de la continuidad operativa de equipos críticos, diagnóstico avanzado de fallas y soporte de alta prioridad en entornos industriales.",
+        "descripcion_en": "Maintenance, Repair, and Operations (MRO) of technical infrastructure and automation systems. Operational continuity management of critical equipment, advanced failure diagnostics, and high-priority support in industrial environments.",
+        "tecnologias": ["MRO Operations", "Industrial Systems", "Hardware Diagnostics", "Operational Continuity", "Incident Resolution"]
+    },
+    {
+        "empresa": "AUMOVIO",
         "titulo_es": "Programming Intern - Área de Almacén",
         "titulo_en": "Programming Intern - Warehouse & Logistics",
-        "fecha_es": "Nov 2025 - Presente",
-        "fecha_en": "Nov 2025 - Present",
-        "logo_url": "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoiY29udGluZW50YWxcL2ZpbGVcL1pGbnlhTmNuc2hBaVdWTUx2Q25HLnN2ZyJ9:continental:bAZRh3eRACkNsFSVMyrNwRoVbjNKzIcrwkcAf4nFCM4?width=1200",
-        "descripcion_es": "Automatización, estandarización y optimización de procesos logísticos mediante flujos RPA en UiPath y VBA. Integración de UiPath con SAP para ejecución de transacciones repetitivas. Implementación de Storage Buckets para consolidación de datos y generación automatizada de reportes KPI.",
-        "descripcion_en": "Automation, standardization, and optimization of logistics processes through RPA workflows in UiPath and VBA. UiPath integration with SAP for execution of repetitive transactions. Implementation of Storage Buckets for data consolidation and automated KPI report generation.",
+        "fecha_es": "Nov 2025 - Agosto 2026",
+        "fecha_en": "Nov 2025 - Aug 2026",
+        "logo_url": "certificados/aumovio_logo_highres.png",
+        "descripcion_es": "Automatización, estandarización y optimización de procesos logísticos mediante flujos RPA en UiPath y VBA. Integración de UiPath con SAP SCM para ejecución de transacciones repetitivas. Implementación de Storage Buckets para consolidación de datos y generación automatizada de reportes KPI.",
+        "descripcion_en": "Automation, standardization, and optimization of logistics processes through RPA workflows in UiPath and VBA. UiPath integration with SAP SCM for execution of repetitive transactions. Implementation of Storage Buckets for data consolidation and automated KPI report generation.",
         "tecnologias": ["UiPath (RPA)", "SAP SCM", "Python", "VBA", "Storage Buckets", "KPI Reports"]
     },
     {
