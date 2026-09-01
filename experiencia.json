@@ -1,9 +1,24 @@
 [
     {
-        "titulo": "Interno en programación",
-        "empresa": "Aumovio",
+        "empresa": "AUMOVIO",
+        "titulo_es": "Programming Intern - Área de Almacén",
+        "titulo_en": "Programming Intern - Warehouse & Logistics",
+        "fecha_es": "Nov 2025 - Presente",
+        "fecha_en": "Nov 2025 - Present",
         "logo_url": "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoiY29udGluZW50YWxcL2ZpbGVcL1pGbnlhTmNuc2hBaVdWTUx2Q25HLnN2ZyJ9:continental:bAZRh3eRACkNsFSVMyrNwRoVbjNKzIcrwkcAf4nFCM4?width=1200",
-        "fecha": "Noviembre/2025 - Presente",
-        "descripcion": "RPA Developer, uso de herramientas como UIPath y programación en Python y Visual Basic."
+        "descripcion_es": "Automatización, estandarización y optimización de procesos logísticos mediante flujos RPA en UiPath y VBA. Integración de UiPath con SAP para ejecución de transacciones repetitivas. Implementación de Storage Buckets para consolidación de datos y generación automatizada de reportes KPI.",
+        "descripcion_en": "Automation, standardization, and optimization of logistics processes through RPA workflows in UiPath and VBA. UiPath integration with SAP for execution of repetitive transactions. Implementation of Storage Buckets for data consolidation and automated KPI report generation.",
+        "tecnologias": ["UiPath (RPA)", "SAP SCM", "Python", "VBA", "Storage Buckets", "KPI Reports"]
+    },
+    {
+        "empresa": "Sector Independiente",
+        "titulo_es": "Soporte Técnico y Atención al Cliente",
+        "titulo_en": "Technical Support & Customer Care",
+        "fecha_es": "2019 - Presente",
+        "fecha_en": "2019 - Present",
+        "logo_url": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+        "descripcion_es": "Gestión del ciclo de vida de incidencias mediante sistemas de tickets, asegurando tiempos de respuesta óptimos. Diagnóstico, soporte y reparación de equipos de cómputo (hardware y software) en entornos de alta demanda.",
+        "descripcion_en": "Lifecycle incident management using ticketing systems, ensuring optimal response times. Diagnosis, support, and hardware/software repair in high-demand environments.",
+        "tecnologias": ["Ticketing Systems", "Hardware/Software Support", "Network Diagnostics", "Windows/Linux"]
     }
 ]

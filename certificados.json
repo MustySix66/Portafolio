@@ -1,205 +1,330 @@
 [
     {
+        "titulo": "Hack The Box - Cyber Apocalypse CTF 2026: The Salt Crown",
+        "titulo_en": "Hack The Box - Cyber Apocalypse CTF 2026: The Salt Crown",
+        "otorgado_por": "Hack The Box",
+        "fecha": "29/Julio/2026",
+        "imagen_url": "certificados/HTB_Cyber_Apocalypse_CTF_2026.png",
+        "credencial_url": "Nuevos_Certs/Certificate-0xMusty.pdf",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "descripcion_es": "Top 544 de 6,744 equipos mundiales con el equipo 0xPwnT34m. 58 retos resueltos y 27,600 pts.",
+        "descripcion_en": "Ranked 544th out of 6,744 global teams with 0xPwnT34m. 58 challenges solved and 27,600 pts."
+    },
+    {
+        "titulo": "Ciberseguridad y Hacking Ético",
+        "titulo_en": "Cybersecurity & Ethical Hacking",
+        "otorgado_por": "BIG School",
+        "fecha": "28/Junio/2026",
+        "imagen_url": "certificados/BIG_School_CySec_Hacking_Etico.png",
+        "credencial_url": "Nuevos_Certs/CySec y Hacking etico.png",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "descripcion_es": "Técnicas de detección de vulnerabilidades y defensa digital.",
+        "descripcion_en": "Vulnerability detection techniques and digital defense."
+    },
+    {
+        "titulo": "Taller de Liderazgo",
+        "titulo_en": "Leadership Workshop",
+        "otorgado_por": "ANCABE",
+        "fecha": "Junio/2026",
+        "imagen_url": "certificados/ANCABE_Liderazgo_2026.png",
+        "credencial_url": "Nuevos_Certs/LIDERAZGO JUNIO (13).pdf",
+        "categoria": "soft_skills",
+        "destacado": false,
+        "descripcion_es": "Jornada de capacitación en liderazgo y gestión de equipos.",
+        "descripcion_en": "Training workshop on leadership and team management."
+    },
+    {
+        "titulo": "Taller de Comunicación Asertiva",
+        "titulo_en": "Assertive Communication Workshop",
+        "otorgado_por": "ANCABE",
+        "fecha": "Abril/2026",
+        "imagen_url": "certificados/ANCABE_Comunicacion_Asertiva_2026.png",
+        "credencial_url": "Nuevos_Certs/COMUNICACION ASERTIVA ABRIL (79).PDF",
+        "categoria": "soft_skills",
+        "destacado": false,
+        "descripcion_es": "Estrategias de comunicación profesional y trabajo colaborativo.",
+        "descripcion_en": "Professional communication strategies and collaborative teamwork."
+    },
+    {
         "titulo": "UiPath Academy Automation Developer Associate Training",
         "otorgado_por": "UiPath",
         "fecha": "29/Diciembre/2025",
         "imagen_url": "certificados/UiPath Academy Automation Developer Associate Training.png",
-        "credencial_url": "https://www.credential.net/20ed5e67-ca85-4c52-a6dc-b77c58eca3d0"
+        "credencial_url": "https://www.credential.net/20ed5e67-ca85-4c52-a6dc-b77c58eca3d0",
+        "categoria": "automation",
+        "destacado": true,
+        "titulo_en": "UiPath Academy Automation Developer Associate Training"
     },
     {
         "titulo": "Infotec Python Intermedio",
         "otorgado_por": "Infotec",
         "fecha": "17/Diciembre/2025",
         "imagen_url": "certificados/Infotec Python Intermedio.png",
-        "credencial_url": "https://www.epc.gob.mx/acreditacion/EDC-2c9eKM"
+        "credencial_url": "https://www.epc.gob.mx/acreditacion/EDC-2c9eKM",
+        "categoria": "foundations",
+        "destacado": false,
+        "titulo_en": "Infotec Python Intermedio"
     },
     {
         "titulo": "Docker Essentials: A Developer Introduction",
         "otorgado_por": "IBM",
         "fecha": "04/Noviembre/2025",
         "imagen_url": "certificados/Docker IBM.png",
-        "credencial_url": "certificados/Docker IBM.pdf"
-    },
-    {
-        "titulo": "Docker Essentials: A Developer Introduction",
-        "otorgado_por": "IBM",
-        "fecha": "04/Noviembre/2025",
-        "imagen_url": "https://images.credly.com/size/340x340/images/b0c5445a-72a2-46ce-a599-96147e210efb/blob",
-        "credencial_url": "https://www.credly.com/badges/c4111757-bd73-4076-ad67-349195446f97"
+        "credencial_url": "certificados/Docker IBM.pdf",
+        "categoria": "cloud",
+        "destacado": true,
+        "titulo_en": "Docker Essentials: A Developer Introduction"
     },
     {
         "titulo": "Introduction to AWS IAM",
         "otorgado_por": "AWS",
         "fecha": "17/Octubre/2025",
         "imagen_url": "certificados/INTRODUCTION TO AWS IAM.png",
-        "credencial_url": "certificados/Introduction to AWS IAM.pdf"
+        "credencial_url": "certificados/Introduction to AWS IAM.pdf",
+        "categoria": "cloud",
+        "destacado": true,
+        "titulo_en": "Introduction to AWS IAM"
     },
     {
         "titulo": "AWS Shared Responsibility Model",
         "otorgado_por": "AWS",
         "fecha": "17/Octubre/2025",
         "imagen_url": "certificados/AWS SHARED RESPONSIBILITY MODEL.png",
-        "credencial_url": "certificados/AWS Shared Responsibility.pdf"
+        "credencial_url": "certificados/AWS Shared Responsibility.pdf",
+        "categoria": "cloud",
+        "destacado": true,
+        "titulo_en": "AWS Shared Responsibility Model"
     },
     {
         "titulo": "Junior Cybersecurity Analyst Career Path",
         "otorgado_por": "Cisco",
         "fecha": "10/Abril/2025",
         "imagen_url": "https://images.credly.com/size/340x340/images/441578ec-c0f3-46cc-95fc-86b27e90cf4f/image.png",
-        "credencial_url": "https://www.credly.com/badges/ac395142-1b8f-48ee-83f6-b4bbfd0b4956"
+        "credencial_url": "https://www.credly.com/badges/ac395142-1b8f-48ee-83f6-b4bbfd0b4956",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Junior Cybersecurity Analyst Career Path"
     },
     {
         "titulo": "IA en el trabajo",
         "otorgado_por": "Red Por La Ciberseguridad",
         "fecha": "03/Octubre/2024",
         "imagen_url": "certificados/IAENELTRABAJO.png",
-        "credencial_url": "https://redporlaciberseguridad.org/validacion-de-constancia-ia-en-el-trabajo/"
+        "credencial_url": "https://redporlaciberseguridad.org/validacion-de-constancia-ia-en-el-trabajo/",
+        "categoria": "soft_skills",
+        "destacado": false,
+        "titulo_en": "IA en el trabajo"
     },
     {
         "titulo": "Google Cloud Profesor Facilitador",
         "otorgado_por": "Google Cloud",
         "fecha": "15/Julio/2024",
         "imagen_url": "certificados/GOOGLE CLOUD PROFESSOR FACILITATOR.png",
-        "credencial_url": "certificados/Google Cloud Facilitador.pdf"
+        "credencial_url": "certificados/Google Cloud Facilitador.pdf",
+        "categoria": "cloud",
+        "destacado": true,
+        "titulo_en": "Google Cloud Profesor Facilitador"
     },
     {
         "titulo": "Google IA y Productividad",
         "otorgado_por": "Santander Open Academy",
         "fecha": "11/Julio/2024",
         "imagen_url": "certificados/GOOGLE IA Y PRODUCTIVIDAD.png",
-        "credencial_url": "certificados/Google IA y Productividad.pdf"
+        "credencial_url": "certificados/Google IA y Productividad.pdf",
+        "categoria": "soft_skills",
+        "destacado": false,
+        "titulo_en": "Google IA y Productividad"
     },
     {
         "titulo": "Google Cloud Computing Foundations Certificate",
         "otorgado_por": "Google Cloud",
         "fecha": "15/Junio/2024",
         "imagen_url": "https://images.credly.com/images/4dda8ae4-99ee-476c-bca3-6f0adbab42fe/image.png",
-        "credencial_url": "https://www.credly.com/badges/ec398562-126e-415b-98ba-25d732fb3387"
+        "credencial_url": "https://www.credly.com/badges/ec398562-126e-415b-98ba-25d732fb3387",
+        "categoria": "cloud",
+        "destacado": true,
+        "titulo_en": "Google Cloud Computing Foundations Certificate"
     },
     {
         "titulo": "Prepare Data for ML APIs on Google Cloud Skill Badge",
         "otorgado_por": "Google Cloud",
         "fecha": "15/Junio/2024",
         "imagen_url": "https://images.credly.com/size/340x340/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png",
-        "credencial_url": "https://www.credly.com/badges/53a7ce16-4ff0-4cee-83b8-808d9fab1d76"
+        "credencial_url": "https://www.credly.com/badges/53a7ce16-4ff0-4cee-83b8-808d9fab1d76",
+        "categoria": "cloud",
+        "destacado": true,
+        "titulo_en": "Prepare Data for ML APIs on Google Cloud Skill Badge"
     },
     {
         "titulo": "Build a Secure Google Cloud Network Skill Badge",
         "otorgado_por": "Google Cloud",
         "fecha": "13/Junio/2024",
         "imagen_url": "https://images.credly.com/size/340x340/images/e1131ae3-4a52-4af1-9801-b7853767cf79/image.png",
-        "credencial_url": "https://www.credly.com/badges/daa95538-5bf9-451d-88b1-31994a686e6c"
+        "credencial_url": "https://www.credly.com/badges/daa95538-5bf9-451d-88b1-31994a686e6c",
+        "categoria": "cloud",
+        "destacado": true,
+        "titulo_en": "Build a Secure Google Cloud Network Skill Badge"
     },
     {
         "titulo": "Set Up an App Dev Environment on Google Cloud Skill Badge",
         "otorgado_por": "Google Cloud",
         "fecha": "13/Junio/2024",
         "imagen_url": "https://images.credly.com/size/340x340/images/42326d44-14ff-4eda-b9c5-7d8f12919253/image.png",
-        "credencial_url": "https://www.credly.com/badges/e2a2cd2d-2a28-4ddd-9885-5a293895c627"
+        "credencial_url": "https://www.credly.com/badges/e2a2cd2d-2a28-4ddd-9885-5a293895c627",
+        "categoria": "cloud",
+        "destacado": true,
+        "titulo_en": "Set Up an App Dev Environment on Google Cloud Skill Badge"
     },
     {
         "titulo": "Implement Load Balancing on Compute Engine Skill Badge",
         "otorgado_por": "Google Cloud",
         "fecha": "11/Junio/2024",
         "imagen_url": "https://images.credly.com/size/340x340/images/eea11cba-2a98-4bbe-bad2-447878dd34a2/image.png",
-        "credencial_url": "https://www.credly.com/badges/20285dbe-6df2-4b09-9c99-900483141537"
+        "credencial_url": "https://www.credly.com/badges/20285dbe-6df2-4b09-9c99-900483141537",
+        "categoria": "foundations",
+        "destacado": false,
+        "titulo_en": "Implement Load Balancing on Compute Engine Skill Badge"
     },
     {
         "titulo": "Networking Devices and Initial Configuration Certificate",
         "otorgado_por": "Cisco",
         "fecha": "11/Enero/2024",
         "imagen_url": "certificados/NETWORKING DEVICES AND INITIAL CONFIGURATIONS.png",
-        "credencial_url": "certificados/Networking Devices and Initial Configuration Badge.pdf"
+        "credencial_url": "certificados/Networking Devices and Initial Configuration Badge.pdf",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Networking Devices and Initial Configuration Certificate"
     },
     {
         "titulo": "Networking Devices and Initial Configuration",
         "otorgado_por": "Cisco",
         "fecha": "11/Enero/2024",
         "imagen_url": "https://images.credly.com/size/340x340/images/88316fe8-5651-4e61-a6be-5be1558f049e/image.png",
-        "credencial_url": "https://www.credly.com/badges/434d7a65-177a-4239-9bf9-91151f1c0d56"
+        "credencial_url": "https://www.credly.com/badges/434d7a65-177a-4239-9bf9-91151f1c0d56",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Networking Devices and Initial Configuration"
     },
     {
         "titulo": "Network Addressing and Basic Troubleshooting Certificate",
         "otorgado_por": "Cisco",
         "fecha": "10/Enero/2024",
         "imagen_url": "certificados/NETWORK ADDRESSING AND BASIC TROUBLESHOOTING.png",
-        "credencial_url": "certificados/Network Addressing and Basic Troubleshooting Badge.pdf"
+        "credencial_url": "certificados/Network Addressing and Basic Troubleshooting Badge.pdf",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Network Addressing and Basic Troubleshooting Certificate"
     },
     {
         "titulo": "Network Addressing and Basic Troubleshooting",
         "otorgado_por": "Cisco",
         "fecha": "10/Enero/2024",
         "imagen_url": "https://images.credly.com/size/680x680/images/49c099bd-8542-4f48-8c03-f21799dcaf51/image.png",
-        "credencial_url": "https://www.credly.com/badges/45a050e7-0b5b-416a-a69f-2d294f330362"
+        "credencial_url": "https://www.credly.com/badges/45a050e7-0b5b-416a-a69f-2d294f330362",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Network Addressing and Basic Troubleshooting"
     },
     {
         "titulo": "Networking Basics Certificate",
         "otorgado_por": "Cisco",
         "fecha": "12/Diciembre/2023",
         "imagen_url": "certificados/NETWORKING BASICS BADGE.png",
-        "credencial_url": "certificados/Networking Basics Badge.pdf"
+        "credencial_url": "certificados/Networking Basics Badge.pdf",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Networking Basics Certificate"
     },
     {
         "titulo": "Networking Basics",
         "otorgado_por": "Cisco",
         "fecha": "12/Diciembre/2023",
         "imagen_url": "https://images.credly.com/size/680x680/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png",
-        "credencial_url": "https://www.credly.com/badges/eca5c43b-552d-41bc-a495-e36496291198"
+        "credencial_url": "https://www.credly.com/badges/eca5c43b-552d-41bc-a495-e36496291198",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Networking Basics"
     },
     {
         "titulo": "Python Essentials 1 Certificate",
         "otorgado_por": "Cisco",
         "fecha": "02/Diciembre/2023",
         "imagen_url": "certificados/PYTHON ESSENTIALS 1 CERTIFICATE.png",
-        "credencial_url": "certificados/Python Essentials 1 Badge.pdf"
+        "credencial_url": "certificados/Python Essentials 1 Badge.pdf",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Python Essentials 1 Certificate"
     },
     {
         "titulo": "Python Essentials 1",
         "otorgado_por": "Cisco",
         "fecha": "02/Diciembre/2023",
         "imagen_url": "https://images.credly.com/size/680x680/images/49c099bd-8542-4f48-8c03-f21799dcaf51/image.png",
-        "credencial_url": "https://images.credly.com/size/340x340/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png"
+        "credencial_url": "https://images.credly.com/size/340x340/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Python Essentials 1"
     },
     {
         "titulo": "IT Essentials Certificate",
         "otorgado_por": "Cisco",
         "fecha": "29/Noviembre/2023",
         "imagen_url": "certificados/FUNDAMENTOS-DE-TI-CERTIFICATE.png",
-        "credencial_url": "certificados/Fundamentos de TI-certificate.pdf"
+        "credencial_url": "certificados/Fundamentos de TI-certificate.pdf",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "IT Essentials Certificate"
     },
     {
         "titulo": "IT Essentials",
         "otorgado_por": "Cisco",
         "fecha": "29/Noviembre/2023",
         "imagen_url": "https://images.credly.com/size/680x680/images/04e8034c-81f5-4f7f-ab23-e8b428c31ce9/ITE.png",
-        "credencial_url": "https://www.credly.com/badges/467e8687-f650-4773-9b46-8629cdb17778"
+        "credencial_url": "https://www.credly.com/badges/467e8687-f650-4773-9b46-8629cdb17778",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "IT Essentials"
     },
     {
         "titulo": "Introduction to Cybersecurity Certificate",
         "otorgado_por": "Cisco",
         "fecha": "24/Octubre/2023",
         "imagen_url": "certificados/INTRODUCTION TO CYBERSECURITY BADGE.png",
-        "credencial_url": "certificados/Introduction to Cybersecurity Badge.pdf"
+        "credencial_url": "certificados/Introduction to Cybersecurity Badge.pdf",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Introduction to Cybersecurity Certificate"
     },
     {
         "titulo": "Introduction to Cybersecurity",
         "otorgado_por": "Cisco",
         "fecha": "24/Octubre/2023",
         "imagen_url": "https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png",
-        "credencial_url": "https://www.credly.com/badges/14ac9c0f-0500-4469-a590-842c3343cc5f"
+        "credencial_url": "https://www.credly.com/badges/14ac9c0f-0500-4469-a590-842c3343cc5f",
+        "categoria": "cybersecurity",
+        "destacado": true,
+        "titulo_en": "Introduction to Cybersecurity"
     },
     {
         "titulo": "Finalista en TuApp",
         "otorgado_por": "TuApp.org",
         "fecha": "17/Noviembre/2016",
         "imagen_url": "certificados/TuApp.png",
-        "credencial_url": "certificados/TuApp.pdf"
+        "credencial_url": "certificados/TuApp.pdf",
+        "categoria": "foundations",
+        "destacado": false,
+        "titulo_en": "Finalista en TuApp"
     },
     {
         "titulo": "Introducción a Python",
         "otorgado_por": "Solo Learn",
         "fecha": "26/Agosto/2016",
         "imagen_url": "certificados/Python 2016.png",
-        "credencial_url": "certificados/Python 2016.pdf"
+        "credencial_url": "certificados/Python 2016.pdf",
+        "categoria": "foundations",
+        "destacado": false,
+        "titulo_en": "Introducción a Python"
     }
 ]
