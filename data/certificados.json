@@ -3,13 +3,13 @@
         "titulo": "Cold Room",
         "titulo_en": "Cold Room",
         "otorgado_por": "Hack The Box",
-        "fecha": "2025",
-        "imagen_url": "assets/certificados/HTB_Cold_Room.pdf",
+        "fecha": "29/Octubre/2026 - 01/Noviembre/2026",
+        "imagen_url": "assets/certificados/HTB_Cold_Room.png",
         "credencial_url": "assets/certificados/HTB_Cold_Room.pdf",
         "categoria": "cybersecurity",
         "destacado": true,
-        "descripcion_es": "Reto de ciberseguridad de Hack The Box con enfoque en análisis y resolución de desafíos técnicos.",
-        "descripcion_en": "Hack The Box cybersecurity challenge focused on technical analysis and solving security problems."
+        "descripcion_es": "Puesto 452 de 1,716 equipos con 0xPwnT34m. 18/18 retos resueltos y 2,075 puntos.",
+        "descripcion_en": "Ranked 452nd out of 1,716 teams with 0xPwnT34m. 18/18 challenges solved and 2,075 points."
     },
     {
         "titulo": "Hack The Box - Cyber Apocalypse CTF 2026: The Salt Crown",
