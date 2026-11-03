@@ -267,6 +267,10 @@ function fetchData() {
     });
 }
 
+function isPdfAsset(url) {
+    return typeof url === 'string' && url.toLowerCase().endsWith('.pdf');
+}
+
 function renderCertificates() {
     const gallery = document.getElementById('cert-grid');
     if (!gallery) return;
@@ -291,19 +295,34 @@ function renderCertificates() {
         const descText = (currentLang === 'en' && cert.descripcion_en) ? cert.descripcion_en : (cert.descripcion_es || '');
         const btnText = i18n[currentLang].view_credential;
         const featuredText = i18n[currentLang].featured_tag;
+        const previewUrl = cert.credencial_url || cert.imagen_url || '';
+        const safeTitle = titleText.replace(/'/g, "\\'");
 
         const featuredBadgeHTML = cert.destacado 
             ? `<span class="cert-badge-featured">${featuredText}</span>` 
             : '';
 
+        const previewMarkup = isPdfAsset(previewUrl)
+            ? `
+                <div class="cert-pdf-container" onclick="openLightbox('${previewUrl}', '${safeTitle}')">
+                    <div class="cert-pdf-icon">PDF</div>
+                    <div class="cert-overlay">
+                        <span class="view-zoom-text">Ver certificado</span>
+                    </div>
+                </div>
+            `
+            : `
+                <div class="cert-img-container" onclick="openLightbox('${cert.imagen_url}', '${safeTitle}')">
+                    <img src="${cert.imagen_url}" alt="${safeTitle}" loading="lazy">
+                    <div class="cert-overlay">
+                        <span class="view-zoom-text">Ver vista previa</span>
+                    </div>
+                </div>
+            `;
+
         card.innerHTML = `
             ${featuredBadgeHTML}
-            <div class="cert-img-container" onclick="openLightbox('${cert.imagen_url}', '${titleText}')">
-                <img src="${cert.imagen_url}" alt="${titleText}" loading="lazy">
-                <div class="cert-overlay">
-                    <span class="view-zoom-text">Ver vista previa</span>
-                </div>
-            </div>
+            ${previewMarkup}
             <div class="cert-body">
                 <h3 class="cert-title">${titleText}</h3>
                 <p class="cert-issuer">${cert.otorgado_por}</p>
@@ -364,10 +383,29 @@ function renderExperience() {
 function openLightbox(imgUrl, caption) {
     const lightbox = document.getElementById('lightbox-modal');
     const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxPdf = document.getElementById('lightbox-pdf');
     const lightboxCaption = document.getElementById('lightbox-caption');
+    const isPdf = isPdfAsset(imgUrl);
 
     if (lightbox && lightboxImg) {
-        lightboxImg.src = imgUrl;
+        if (isPdf) {
+            lightboxImg.style.display = 'none';
+            lightboxImg.src = '';
+            if (lightboxPdf) {
+                lightboxPdf.src = imgUrl;
+                lightboxPdf.classList.add('active');
+                lightboxPdf.style.display = 'block';
+            }
+        } else {
+            lightboxImg.style.display = 'block';
+            lightboxImg.src = imgUrl;
+            if (lightboxPdf) {
+                lightboxPdf.src = '';
+                lightboxPdf.classList.remove('active');
+                lightboxPdf.style.display = 'none';
+            }
+        }
+
         if (lightboxCaption) lightboxCaption.textContent = caption || '';
         lightbox.classList.add('active');
     }
@@ -375,6 +413,20 @@ function openLightbox(imgUrl, caption) {
 
 function closeLightbox() {
     const lightbox = document.getElementById('lightbox-modal');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxPdf = document.getElementById('lightbox-pdf');
+
+    if (lightboxImg) {
+        lightboxImg.src = '';
+        lightboxImg.style.display = 'block';
+    }
+
+    if (lightboxPdf) {
+        lightboxPdf.src = '';
+        lightboxPdf.classList.remove('active');
+        lightboxPdf.style.display = 'none';
+    }
+
     if (lightbox) {
         lightbox.classList.remove('active');
     }
